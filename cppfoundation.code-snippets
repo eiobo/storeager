@@ -1,0 +1,12 @@
+{		
+	"Copyright Info": {
+		"prefix": "copyright",
+		"body": [
+			"// Copyright (c) ${CURRENT_YEAR} Him",
+			"// Author: Him",
+			"// Date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"
+		],
+		"description": "Insert copyright info (author and date)"
+	}
+	
+}

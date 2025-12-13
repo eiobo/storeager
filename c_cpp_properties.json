@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/include/x86_64-linux-gnu", // 系统默认头文件路径
+                "/usr/include/c++/9",           // GCC 9 的 C++ 标准库路径
+                "/usr/include/c++/9/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include"
+            ],
+            "defines": [
+                "__GNUC__",       // 定义 GCC 编译器宏
+                "__linux__",      // 定义 Linux 环境宏
+                "_GNU_SOURCE"     // 解决部分 GNU 扩展的警告
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",                // 继续使用 C17 标准
+            "cppStandard": "c++20",           // 推荐使用 C++20
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
